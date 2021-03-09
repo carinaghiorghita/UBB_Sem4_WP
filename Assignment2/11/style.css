@@ -1,0 +1,5 @@
+div{
+  height: 100px;
+  width: 900px;
+  background-image: linear-gradient(to right,rgba(255, 255, 77, 0),rgba(255, 255, 77, 1),rgba(255, 255, 77, 0));
+}

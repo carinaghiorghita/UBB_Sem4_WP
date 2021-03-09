@@ -1,0 +1,36 @@
+/*
+div{
+  width: 100px;
+  height: 100px;
+  background: blue;
+  position: relative;
+}
+div:hover {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  position: relative;
+  animation: mymove 10s infinite;
+}
+
+@keyframes mymove {
+  from {background: blue; left: 0px;top: 0px;}
+  to {background: red; left: 1400px;top: 600px;}
+}
+*/
+
+div {
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	transition:	left 10s, top 10s, background-color 10s;
+}
+
+div:hover {
+	left: 90%;
+	top: 90%;
+	background-color: red;
+}
