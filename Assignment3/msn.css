@@ -1,0 +1,594 @@
+#html {
+	background-color: #f4f4f2;
+	font-size: 62.5%;
+}
+
+.body{
+	font-size: 1.5rem;
+    padding-left: 11.25rem;
+    padding-right: 11.25rem;
+    font-family: "Segoe UI","Segoe WP",Arial,Sans-Serif;
+    font-weight: normal;
+}
+
+.header {
+	height: 5rem;
+    padding-top: 1.2rem;
+    position: fixed;
+    width: 100%;
+    opacity: 1;
+}
+
+.logo {
+	display: inline-block;
+	height: 100%;
+	width: 15%;
+    opacity: 1;
+}
+
+#imglogo {
+	width: 31px;
+	height: 31px;
+	font-family: "Segoe UI", "Segoe WP", Arial, Sans-Serif;
+	
+}
+
+#msn {
+	color: #333;
+	font-family: "Segoe UI", "Segoe WP", Arial, Sans-Serif;
+	position:relative;
+	display: inline-block;
+	font-size: 2.4rem;
+	top:-0.7rem;
+	left: -0.5rem;
+}
+
+#msn2 {
+	color: #696969;
+	font-family: "Segoe UI", "Segoe WP", Arial, Sans-Serif;
+	font-size: 1.3rem;
+	position: relative;
+	top:-4.6rem;
+	left: 0.3rem;
+}
+
+.search {
+	position: absolute;
+	height: 75%;
+	width: 700px;
+	top: 20px;
+	left: 290px;
+	box-shadow: 0px 3px 5px #888888;
+}
+
+#search-bar {
+	position: absolute;
+	height: 90%;
+	width: 88.5%;
+	border-radius: 5px 0px 0px 5px;
+}
+
+#search-button {
+	position: absolute;
+	background-color: rgba(0,120,215,.8);
+	width: 10.75%;
+	height: 105%;
+	left: 89.5%;
+	border-radius: 0px 5px 5px 0px;
+}
+
+#search-icon {
+	width: 25px;
+	height: 25px;
+}
+
+.sign-in {
+	position: absolute;
+	height: 100%;
+	width: 10%;
+	left: 77.25%;
+	top: 35%;
+}
+
+#sign-in-text {
+	color: #505050;;
+	position: absolute;
+	font-family: "Segoe UI", "Segoe WP", Arial, Sans-Serif;
+	font-size: 1.204rem;
+}
+
+#settings-icon {
+	position: absolute;
+	left: 42%;
+	top:15%;
+	width: 25px;
+	height: 25px;
+}
+
+.links {
+	padding-top: 10rem;
+	font-weight: 600;
+	font-size: 1.3rem;
+	color: #333;
+}
+
+#outlook {
+	position: absolute;
+	left: 8%;
+}
+
+#outlook1 {
+	width: 25px;
+	height: 25px;
+}
+
+#outlook-link {
+	text-decoration: none;
+	color: #333;
+}
+
+#facebook {
+	position: absolute;
+	left: 19.5%;
+}
+
+#facebook1 {
+	width: 25px;
+	height: 25px;
+}
+
+#facebook-link {
+	text-decoration: none;
+	color: #333;
+}
+
+#sport {
+	position: absolute;
+	left: 30%;
+}
+
+#sport1 {
+	width: 25px;
+	height: 25px;
+}
+
+#sport-link {
+	text-decoration: none;
+	color: #333;
+}
+
+#office {
+	position: absolute;
+	left: 38.5%;
+}
+
+#office1 {
+	width: 25px;
+	height: 25px;
+}
+
+#office-link {
+	text-decoration: none;
+	color: #333;
+}
+
+#twitter {
+	position: absolute;
+	left: 47%;
+}
+
+#twitter1 {
+	width: 25px;
+	height: 25px;
+}
+
+#twitter-link {
+	text-decoration: none;
+	color: #333;
+}
+
+#skype {
+	position: absolute;
+	left: 56%;
+}
+
+#skype1 {
+	width: 25px;
+	height: 25px;
+}
+
+#skype-link {
+	text-decoration: none;
+	color: #333;
+}
+
+#store {
+	position: absolute;
+	left: 65%;
+}
+
+#store1 {
+	width: 25px;
+	height: 25px;
+}
+
+#store-link {
+	text-decoration: none;
+	color: #333;
+}
+
+#onedrive {
+	position: absolute;
+	left: 77%;
+}
+
+#onedrive1 {
+	width: 25px;
+	height: 25px;
+}
+
+#onedrive-link {
+	text-decoration: none;
+	color: #333;
+}
+
+#hr {
+	position: relative;
+	top: 35px;
+}
+
+.menu {
+	position: relative;
+	top:35px;
+	font-size: 1.3rem;
+	font-weight: 600;
+}
+
+#corona {
+	position: absolute;
+	left: 1%;
+	color: #08893e;
+	text-decoration: none;
+}
+
+#v1 {
+	position: absolute;
+	left: 8.5%;
+	top: -16px;
+	color: #696969;
+}
+
+#weather-icon {
+	position: absolute;
+	left: 9%;
+	width: 25px;
+	height: 25px;
+}
+
+#weather-text {
+	position: absolute;
+	left: 11%;
+	top: 0px;
+	font-weight: bold;
+	color: #696969;
+	text-decoration: none;
+}
+
+#edit-weather {
+	position: absolute;
+	left: 21%;
+	width: 19px;
+	height: 19px;
+}
+
+#v2 {
+	position: absolute;
+	left: 23%;
+	top: -16px;
+	color: #696969;
+}
+
+#edge {
+	position: absolute;
+	left: 24%;
+	color: #146fb1;
+	text-decoration: none;
+}
+
+#v3 {
+	position: absolute;
+	left: 37%;
+	top: -16px;
+	color: #696969;
+}
+
+#africa {
+	position: absolute;
+	left: 39%;
+	top: 0px;
+	color: #696969;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#asia {
+	position: absolute;
+	left: 44%;
+	top: 0px;
+	color: #696969;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#australasia {
+	position: absolute;
+	left: 47.5%;
+	top: 0px;
+	color: #696969;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#europe {
+	position: absolute;
+	left: 55%;
+	top: 0px;
+	color: #696969;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#latin {
+	position: absolute;
+	left: 60%;
+	top: 0px;
+	color: #696969;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#meast {
+	position: absolute;
+	left: 69.25%;
+	top: 0px;
+	color: #696969;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#namerica {
+	position: absolute;
+	left: 77.25%;
+	top: 0px;
+	color: #696969;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#life {
+	position: absolute;
+	left: 87.5%;
+	top: 0px;
+	color: #696969;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#sportmenu {
+	position: absolute;
+	left: 91%;
+	top: 0px;
+	color: #696969;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#espo {
+	position: absolute;
+	left: 96%;
+	top: 0px;
+	font-weight: bold;
+	background: -webkit-linear-gradient(rgb(105, 105, 105,1), rgb(105, 105, 105,0.4));
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	text-decoration: none;
+}
+
+#arrow {
+	position: absolute;
+	left: 99%;
+	width: 19px;
+	height: 19px;	
+}
+
+.news {
+	position: relative;
+	top:90px;
+	left:10px;
+}
+.newsleft {
+	display: inline-block;
+	height: 100%;
+	width: 45%;
+}
+
+.newsright {
+	position: absolute;
+	left:48%;
+	top:0px;
+	height: 70%;
+	width: 25%;
+	color: white;
+}
+
+#news1 {
+	width: 100%;
+	height: 60%;
+	border-width: 5px;
+	border-color: white;	
+}
+
+#news2 {
+	position: absolute;
+	background-color: white;
+	border-width: 5px;
+	border-color: black;
+	margin-top: 10px;
+	left: 22%;
+	width: 23%;
+	height: 30%
+}
+
+#news2-img {
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 10px;
+	height: 75%;
+	width: 40%;
+}
+
+#news2-text {
+	color: #333;
+	position: absolute;
+	margin-top: 10px;
+	margin-right: 10px;
+	left: 47%;
+	font-size: 1.2rem;
+}
+
+#bbc {
+	position: absolute;
+	left: 48%;
+	top: 68%;
+	width: 25px;
+	height: 25px;
+}
+
+#bbc-text {
+	position: absolute;
+	left: 58%;
+	top: 63%;
+	font-size: 1.1rem;
+	color: #666;
+	font-weight: bold;
+}
+
+#news3-img {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.80)), url("images//brazil.jpg");
+}
+
+.news3-text {
+	color: white;
+	position: absolute;
+	left: 5%;
+	top: 50%;
+	font-size: 2.0rem;
+}
+
+#reuters {
+	position: absolute;
+	left: 5%;
+	top: 85%;
+	width: 19px;
+	height: 19px;
+}
+
+#reuters-text {
+	position: absolute;
+	left: 13%;
+	top: 82%;
+	font-size: 1.1rem;
+	color: #a0a0a0;
+	font-weight: bold;
+}
+
+#news4 {
+	position: absolute;
+	background-color: white;
+	border-width: 5px;
+	border-color: black;
+	top: 105%;
+	width: 100%;
+	height: 36%
+}
+
+#news5 {
+	position: absolute;
+	background-color: white;
+	border-width: 5px;
+	border-color: black;
+	top: 146.5%;
+	width: 100%;
+	height: 43%
+}
+
+#news4-img {
+	position: absolute;
+	margin-top: 7px;
+	margin-left: 10px;
+	height: 80%;
+	width: 30%;
+}
+
+#news4-text {
+	color: #333;
+	position: absolute;
+	margin-top: 7px;
+	margin-right: 10px;
+	left: 40%;
+	font-size: 1.2rem;
+}
+
+#indep {
+	position: absolute;
+	left: 40%;
+	top: 68%;
+	width: 18px;
+	height: 18px;
+}
+
+#indep-text {
+	position: absolute;
+	left: 48%;
+	top: 58%;
+	font-size: 1.1rem;
+	color: #666;
+	font-weight: bold;
+}
+
+#news5-img {
+	position: absolute;
+	margin-top: 7px;
+	margin-left: 10px;
+	height: 80%;
+	width: 30%;
+}
+
+#news5-text {
+	color: #333;
+	position: absolute;
+	margin-top: 7px;
+	margin-right: 10px;
+	left: 40%;
+	font-size: 1.3rem;
+}
+
+#hindu {
+	position: absolute;
+	left: 40%;
+	top: 10%;
+	width: 140px;
+	height: 140px;
+}
+
+#hindu-text {
+	position: absolute;
+	left: 48%;
+	top: 60%;
+	font-size: 1.1rem;
+	color: #666;
+	font-weight: bold;
+}
