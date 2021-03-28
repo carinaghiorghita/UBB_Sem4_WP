@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<link rel="icon" type="image/png" href="icon.png"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="loadGame();">
+	<h1 id="message">TIC TAC TOE</h1>
+	<table class="gamecontainer">
+		<tr>
+			<td class="cell" id="0" onclick="playerMove(this, this.id);"></td>
+			<td class="cell" id="1" onclick="playerMove(this, this.id);"></td>
+			<td class="cell" id="2" onclick="playerMove(this, this.id);"></td>
+		</tr>
+		<tr>
+			<td class="cell" id="3" onclick="playerMove(this, this.id);"></td>
+			<td class="cell" id="4" onclick="playerMove(this, this.id);"></td>
+			<td class="cell" id="5" onclick="playerMove(this, this.id);"></td>
+		</tr>
+		<tr>
+			<td class="cell" id="6" onclick="playerMove(this, this.id);"></td>
+			<td class="cell" id="7" onclick="playerMove(this, this.id);"></td>
+			<td class="cell" id="8" onclick="playerMove(this, this.id);"></td>
+		</tr>
+	</table>
+    <h1 id="gamestatus"></h1>
+    <div id="buttoncontainer">
+	    <button id="reset" onclick="loadGame();">Reset game</button>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: rgb(255, 198, 179);
+    color: rgb(77, 0, 0);
+}
+
+#message {
+    padding-top: 20px;  
+    text-align: center;
+}
+
+.gamecontainer {
+    display: grid;
+    width: 306px;
+    margin: 50px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #333333;
+    cursor: pointer;
+    font-size: 60px;
+    text-align: center;
+}
+
+#gamestatus {
+    text-align: center;
+}
+
+#buttoncontainer {
+    text-align: center;
+    padding-top: 20px;  
+}
+
+#reset {
+    background-color: rgb(255, 153, 102);
+    font-size: 16px;
+    padding: 10px 24px;
+    border-radius: 8px;
+    border: 1px solid #4d0f00;
+    cursor: pointer;
+}
